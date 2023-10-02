@@ -1,0 +1,68 @@
+.cardLogin{
+    display: flex;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+@media screen and (max-width: 570px){
+    .cardLogin{
+        width: 80vw;
+        font-size: 20px;
+    }
+    .formLogin{
+        padding:1rem !important
+    }
+    .subtmitBtn{
+        font-size: 1.2rem !important;
+    }
+}
+@media screen and (min-width: 800px){
+    .cardLogin{
+        max-width: 600px;
+    }
+}
+    
+.return{
+    width: 4vw;
+    height: 4vh;
+    position: absolute;
+    top: 2vh;
+    left: 10vw;
+}
+.formLogin{
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    height: fit-content;
+    padding: 2rem;
+    background-color: #4c4c4c;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+    display: grid;
+    gap: 1.2rem;
+    justify-items: center;
+}
+.input{
+    font-size: 85%;
+    padding-left: 10px;
+    width: 90%;
+    height: 5vh;
+    border: 2px solid transparent;
+    border-radius: 25px;
+}
+.subtmitBtn{
+    background-color: #308045;
+    color: #FFFFFF;
+    height: 8vh;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    width: 80%;
+    margin-bottom: 0.3rem;
+    
+}

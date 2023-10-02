@@ -1,0 +1,25 @@
+
+.inputWrapper{
+    border:1px solid transparent;
+   border-radius: 25px;
+   height: fit-content;
+   background-color: #d9d9d9;
+   padding: 5px;
+
+}
+input:focus-visible {
+   outline-offset: none;
+   outline:none;
+}
+input{
+   height: 100%;
+   background-color: #D9d9d9;
+   width: 80%;
+   padding-left: 10px;
+   font-size: 80%;
+   border:1px solid transparent;
+   border-radius: 25px;
+}
+.iconInput{
+   margin-left: 0.5rem;
+}

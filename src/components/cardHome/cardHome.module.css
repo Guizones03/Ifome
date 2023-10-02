@@ -1,0 +1,33 @@
+.cardHome{
+    margin-top: 20vh;
+    display: grid;
+    width: 45vw;
+    height: 40vh;
+    gap: 3rem;
+}
+.logoImg{
+    width: 35vw;
+    margin: auto;
+}
+@media screen and (min-width: 800px) {
+    .logoImg {
+        max-width: 450px;
+    }
+    .cardHome{
+        max-width: 350PX;
+    }
+  }
+.btn{
+    color: #FFFFFF;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 2rem;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color:#4B4B4B ;
+}
+.btn:hover{
+    border-color: #FFFFFF;
+    transition: 0.5ms;
+    text-decoration: underline;
+}
