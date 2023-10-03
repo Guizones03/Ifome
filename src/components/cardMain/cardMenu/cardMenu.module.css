@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../../../public/fonts/Lato-Regular.ttf') format('truetype');
+  }
+.cardMenu{
+    background-color: #70C573;
+    display: flex;
+    border-radius: 25px;
+    width: 90vw;
+    height: fit-content;
+    color: #FFF;
+
+}
+.cardImg{
+    width: 50%;
+    height: 100%;
+    background-image: url(../../../assets/img/solicitacion.svg);
+    background-repeat: no-repeat;
+}
+.cardMenu h3{
+    font-family: "Lato" sans-serif;
+}

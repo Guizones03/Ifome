@@ -1,0 +1,7 @@
+.mainCard{
+    display: grid;
+    grid-row: 3fr;
+    grid-column: 1;
+    gap:1rem
+
+}
