@@ -1,6 +1,6 @@
 import returnIcon from "../../assets/returnIcon.svg"
 import sendIcon from "../../assets/iconSend.svg"
-import InputComponent from "../inputComponent/InputComponent"
+import InputComponent from "./inputComponent/InputComponent"
 import styles from "./cardRegister.module.css"
 export default function CardRegister(){
     return(
